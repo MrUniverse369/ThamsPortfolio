@@ -1,0 +1,50 @@
+body{
+    background-color: #219EBC;
+  }
+  
+  .NavBarContainer,  .btn{
+     background-color: #023047;
+     color: white;
+  }
+  
+  .snowimg{
+  image-resolution: 1080px;
+  }
+  
+  .NavBarContainer>div>a, .NavBarContainer>div>div>ul>li>a, .Aboutme, .Intro, .Projects, .Projects>h2, .card-body{
+      color: white;
+      font-style: normal;
+   }
+  
+  .Intro, .Aboutme,.ConctactForm, .card-body{
+      background-color: #8ECAE6;
+  }
+  
+  .ConctactForm>div>form{
+  background-color: #023047;
+  padding:125px;
+  border: solid;
+  border-color: white;
+  border-radius: 10px;
+  }
+  
+  .EmptySpace{
+      background-color: whitesmoke;
+  }
+  .toolUsed{
+      background-color: #023047;
+      color: white;
+      border-style: solid;
+      border-width: 2px;
+      border-color: white;
+      border-radius: 5px;
+      padding: 5px;
+      display: inline-block;
+  }
+
+  .ProjectsRowFlex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
