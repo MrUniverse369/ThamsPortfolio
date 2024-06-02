@@ -1,17 +1,44 @@
 body{
     background-color: #219EBC;
   }
+
+  *{
+    box-sizing: border-box;
+  }
   
+  #About{
+    display: flex;
+    justify-content: center;
+    padding: 400px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #8ECAE6;
+
+  }
+
+  #About>div>p{
+    font-size: 25px;
+  }
+  
+  #Skills{
+
+    justify-content: center;
+    color: white;
+    background-color: #8ECAE6;
+    
+  }
+
   .NavBarContainer,  .btn{
      background-color: #023047;
      color: white;
   }
   
+  
   .snowimg{
   image-resolution: 1080px;
   }
   
-  .NavBarContainer>div>a, .NavBarContainer>div>div>ul>li>a, .Aboutme, .Intro, .Projects, .Projects>h2, .card-body{
+  .projectsRow,.NavBarContainer>div>a, .NavBarContainer>div>div>ul>li>a, .Aboutme, .Intro, .Projects, .Projects>h2, .card-body{
       color: white;
       font-style: normal;
    }
@@ -32,14 +59,19 @@ body{
       background-color: whitesmoke;
   }
   .toolUsed{
+      width: 150px;
+      height: 50px;
       background-color: #023047;
       color: white;
       border-style: solid;
       border-width: 2px;
       border-color: white;
       border-radius: 5px;
-      padding: 5px;
+      padding: 15px;
+      margin: 10px;
+      box-sizing: border-box;
       display: inline-block;
+      
   }
 
   .ProjectsRowFlex{
